@@ -1,0 +1,19 @@
+Log main (main.py)
+- read the log files and save it inside an empty array called a vpn_logs = []
+- then we pass the log file we want to read from the main.py into the log parser
+
+Log parser (log_parser.py)
+- read the log files from the main.py 
+- use a for loop to iterate over each vpn_logs and compare them with the rules depending on the type of log read and pick the most important parts 
+and push them into a new called array or dictionary into vpn_parsed_logs = []
+
+Log analyzer (log_analyzer.py)
+- we will get the parsed log from the (log_parser.py)
+- the parsed log from the array (pn_parsed_logs = []) is then lopped and for each loop we will analyze the logs based on certain rules we will create in the rules json folder 
+- this rules are going to be written in the alertRules.json file inside the rules folder
+- after we analyze it a file is going to be created and it will contain a report about the analyzed logs
+- while critical analyzed logs would be sent to a new array called critical_logs = [] and passed into the analyzed logs
+
+Alerts (alerts.py)c
+- the critical_logs would be read from the (log_analyzer.py)
+- this file would contain a telegram bot that I will create that sends alarms to my telegram number when there is a critical logs that needs to be investigated further

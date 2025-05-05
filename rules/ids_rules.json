@@ -1,0 +1,74 @@
+[
+  {
+    "log_type": "vpn",
+    "field": "alert.signature",
+    "match_type": "contains",
+    "value": "SSH Scan",
+    "level": "critical",
+    "description": "A ssh scan was detected"
+  },
+  {
+    "log_type": "ids",
+    "field": "alert.category",
+    "match_type": "equals",
+    "value": "Attempted Information Leak",
+    "level": "critical",
+    "description": "an information leak attempted"
+  },
+  {
+    "log_type": "ids",
+    "field": "alert.severity",
+    "match_type": "gte",
+    "value": 2,
+    "level": "medium",
+    "description": "This is a moderate severity alert"
+  },
+  {
+    "log_type": "ids",
+    "field": "alert.category",
+    "match_type": "contains",
+    "value": "Potentially Bad Traffic",
+    "level": "critical",
+    "description": "A bad traffic was found"
+  },
+  {
+    "log_type": "ids",
+    "field": "dest_port",
+    "value": 3306,
+    "match_type": "equals",
+    "level": "medium",
+    "description": "suspicious access to MySQL port 3306"
+  },
+  {
+    "log_type": "ids",
+    "field": "dest_port",
+    "value": 1521,
+    "match_type": "equals",
+    "level": "medium",
+    "description": "suspicious access to Oracle SQL port 1521"
+  },
+  {
+    "log_type": "ids",
+    "field": "dest_port",
+    "value": 1433,
+    "match_type": "equals",
+    "level": "medium",
+    "description": "suspicious access to MSSQL port 1433"
+  },
+  {
+    "log_type": "ids",
+    "field": "dest_port",
+    "value": 5432,
+    "match_type": "equals",
+    "level": "critical",
+    "description": "suspicious access to PostgreSQL port 5432"
+  },
+  {
+    "log_type": "ids",
+    "level": "critical",
+    "field": "alert.signature",
+    "value": "Poor Reputation IP",
+    "match_type": "contains",
+    "description": "Source IP is flagged with poor reputation by threat intel"
+  }
+]
