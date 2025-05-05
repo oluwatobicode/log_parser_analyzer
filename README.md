@@ -70,6 +70,8 @@ This will:
 - Send Telegram alerts for high-risk issues
 - Generate a written report in the `reports/` directory
 
+![Running the System](./screenshots/process-analzying.png "Process running")
+
 ## Customizing Alerts
 
 You can modify `alerts.py` to change the format and content of the alerts:
@@ -83,6 +85,12 @@ You can modify `alerts.py` to change the format and content of the alerts:
 When high-risk issues are detected, you'll receive alerts like this:
 
 ![Telegram Alert Example](./screenshots/telegram-bot.png "Example of Telegram alerts")
+
+## RESOURCES USED
+
+1. Sample log : `https://github.com/FrankHassanabad/suricata-sample-data/tree/master/samples`
+2. Creating enviroment variable : `https://dev.to/jakewitcher/using-env-files-for-environment-variables-in-python-applications-55a1`
+3. Sending notifications on telegram: `https://andrewkushnerov.medium.com/how-to-send-notifications-to-telegram-with-python-9ea9b8657bfb`
 
 ## FUTURE UPDATES
 
