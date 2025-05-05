@@ -36,7 +36,7 @@
       "rev": 5,
       "signature": "ET SCAN Potential VNC Scan 5800-5820",
       "category": "Attempted Information Leak",
-      "severity": 10
+      "severity": 2
     }
   },
   {
@@ -136,7 +136,7 @@
       "rev": 3,
       "signature": "ET SCAN Suspicious inbound to mySQL port 3306",
       "category": "Potentially Bad Traffic",
-      "severity": 9
+      "severity": 2
     }
   },
   {
@@ -156,7 +156,7 @@
       "rev": 3,
       "signature": "ET SCAN Suspicious inbound to PostgreSQL port 5432",
       "category": "Potentially Bad Traffic",
-      "severity": 5
+      "severity": 2
     }
   },
   {
@@ -176,7 +176,7 @@
       "rev": 4,
       "signature": "ET SCAN Sipvicious User-Agent Detected (friendly-scanner)",
       "category": "Attempted Information Leak",
-      "severity": 5
+      "severity": 2
     }
   },
   {

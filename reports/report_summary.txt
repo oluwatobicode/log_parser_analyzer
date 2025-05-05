@@ -1,0 +1,266 @@
+
+🚨 Log Analysis for HIGH RISK
+Timestamp: 2019-01-02T03:50:10.576769
+Source IP: 8.42.77.171
+Destination IP: 138.68.3.71
+Risk Level: HIGH
+Match Count: 2
+
+🚨 Log Analysis for HIGH RISK
+Timestamp: 2019-01-02T03:50:10.585758
+Source IP: 8.42.77.171
+Destination IP: 138.68.3.71
+Risk Level: HIGH
+Match Count: 2
+
+🚨 Log Analysis for HIGH RISK
+Timestamp: 2019-01-02T03:50:09.097718
+Source IP: 8.42.77.171
+Destination IP: 138.68.3.71
+Risk Level: HIGH
+Match Count: 2
+
+🚨 Log Analysis for HIGH RISK
+Timestamp: 2019-01-02T03:50:10.421359
+Source IP: 8.42.77.171
+Destination IP: 138.68.3.71
+Risk Level: HIGH
+Match Count: 2
+
+⚠️ Log Analysis for LOW RISK
+Timestamp: 2019-01-02T03:50:11.315110
+Source IP: 8.42.77.171
+Destination IP: 138.68.3.71
+Risk Level: LOW
+Match Count: 1
+
+⚠️ Log Analysis for LOW RISK
+Timestamp: 2019-01-02T03:50:10.621656
+Source IP: 8.42.77.171
+Destination IP: 138.68.3.71
+Risk Level: LOW
+Match Count: 1
+
+⚠️ Log Analysis for LOW RISK
+Timestamp: 2019-01-02T03:50:10.386108
+Source IP: 8.42.77.171
+Destination IP: 138.68.3.71
+Risk Level: LOW
+Match Count: 1
+
+⚠️ Log Analysis for LOW RISK
+Timestamp: 2019-01-02T03:53:24.798186
+Source IP: 80.211.246.121
+Destination IP: 138.68.3.71
+Risk Level: LOW
+Match Count: 2
+
+⚠️ Log Analysis for LOW RISK
+Timestamp: 2019-01-02T03:54:44.259003
+Source IP: 37.49.231.178
+Destination IP: 138.68.3.71
+Risk Level: LOW
+Match Count: 2
+
+⚠️ Log Analysis for LOW RISK
+Timestamp: 2019-01-02T04:48:08.177654
+Source IP: 184.105.139.67
+Destination IP: 138.68.3.71
+Risk Level: LOW
+Match Count: 1
+
+⚠️ Log Analysis for LOW RISK
+Timestamp: 2019-01-02T06:50:03.088003
+Source IP: 1.169.38.217
+Destination IP: 138.68.3.71
+Risk Level: LOW
+Match Count: 1
+
+⚠️ Log Analysis for LOW RISK
+Timestamp: 2019-01-02T05:30:01.124392
+Source IP: 5.101.40.81
+Destination IP: 138.68.3.71
+Risk Level: LOW
+Match Count: 1
+
+⚠️ Log Analysis for LOW RISK
+Timestamp: 2019-01-02T06:39:50.347400
+Source IP: 5.141.67.237
+Destination IP: 138.68.3.71
+Risk Level: LOW
+Match Count: 1
+
+⚠️ Log Analysis for LOW RISK
+Timestamp: 2019-01-02T04:31:42.200840
+Source IP: 5.188.206.22
+Destination IP: 138.68.3.71
+Risk Level: LOW
+Match Count: 1
+
+⚠️ Log Analysis for LOW RISK
+Timestamp: 2019-01-02T05:37:47.854589
+Source IP: 31.163.158.140
+Destination IP: 138.68.3.71
+Risk Level: LOW
+Match Count: 1
+
+⚠️ Log Analysis for LOW RISK
+Timestamp: 2019-01-02T05:27:44.153921
+Source IP: 31.192.108.68
+Destination IP: 138.68.3.71
+Risk Level: LOW
+Match Count: 1
+
+⚠️ Log Analysis for LOW RISK
+Timestamp: 2019-01-02T05:26:24.432721
+Source IP: 37.49.231.125
+Destination IP: 138.68.3.71
+Risk Level: LOW
+Match Count: 1
+
+⚠️ Log Analysis for LOW RISK
+Timestamp: 2019-01-02T03:56:08.277797
+Source IP: 43.227.231.129
+Destination IP: 138.68.3.71
+Risk Level: LOW
+Match Count: 2
+
+⚠️ Log Analysis for LOW RISK
+Timestamp: 2019-01-02T05:15:32.504812
+Source IP: 45.62.211.169
+Destination IP: 138.68.3.71
+Risk Level: LOW
+Match Count: 2
+
+⚠️ Log Analysis for LOW RISK
+Timestamp: 2019-01-02T06:50:05.309314
+Source IP: 46.100.43.82
+Destination IP: 138.68.3.71
+Risk Level: LOW
+Match Count: 1
+
+⚠️ Log Analysis for LOW RISK
+Timestamp: 2019-01-02T04:59:05.822970
+Source IP: 58.218.213.6
+Destination IP: 138.68.3.71
+Risk Level: LOW
+Match Count: 1
+
+⚠️ Log Analysis for LOW RISK
+Timestamp: 2019-01-02T06:20:16.976528
+Source IP: 58.48.32.199
+Destination IP: 138.68.3.71
+Risk Level: LOW
+Match Count: 1
+
+⚠️ Log Analysis for LOW RISK
+Timestamp: 2019-01-02T04:54:28.473003
+Source IP: 59.47.71.13
+Destination IP: 138.68.3.71
+Risk Level: LOW
+Match Count: 2
+
+⚠️ Log Analysis for LOW RISK
+Timestamp: 2019-01-02T03:51:01.124914
+Source IP: 61.176.222.167
+Destination IP: 138.68.3.71
+Risk Level: LOW
+Match Count: 2
+
+⚠️ Log Analysis for LOW RISK
+Timestamp: 2019-01-02T06:31:43.059540
+Source IP: 61.219.11.151
+Destination IP: 138.68.3.71
+Risk Level: LOW
+Match Count: 1
+
+⚠️ Log Analysis for LOW RISK
+Timestamp: 2019-01-02T04:27:08.129078
+Source IP: 66.240.236.119
+Destination IP: 138.68.3.71
+Risk Level: LOW
+Match Count: 1
+
+⚠️ Log Analysis for LOW RISK
+Timestamp: 2019-01-02T06:00:44.732569
+Source IP: 71.6.232.4
+Destination IP: 138.68.3.71
+Risk Level: LOW
+Match Count: 1
+
+⚠️ Log Analysis for LOW RISK
+Timestamp: 2019-01-02T05:39:02.748303
+Source IP: 71.6.199.23
+Destination IP: 138.68.3.71
+Risk Level: LOW
+Match Count: 1
+
+⚠️ Log Analysis for LOW RISK
+Timestamp: 2019-01-02T05:19:47.315548
+Source IP: 78.128.112.98
+Destination IP: 138.68.3.71
+Risk Level: LOW
+Match Count: 1
+
+⚠️ Log Analysis for LOW RISK
+Timestamp: 2019-01-02T06:25:43.855896
+Source IP: 80.211.172.233
+Destination IP: 138.68.3.71
+Risk Level: LOW
+Match Count: 1
+
+⚠️ Log Analysis for LOW RISK
+Timestamp: 2019-01-02T05:54:11.757522
+Source IP: 80.82.77.33
+Destination IP: 138.68.3.71
+Risk Level: LOW
+Match Count: 1
+
+⚠️ Log Analysis for LOW RISK
+Timestamp: 2019-01-02T04:15:21.333737
+Source IP: 82.202.209.155
+Destination IP: 138.68.3.71
+Risk Level: LOW
+Match Count: 1
+
+⚠️ Log Analysis for LOW RISK
+Timestamp: 2019-01-02T04:40:52.036427
+Source IP: 88.202.190.148
+Destination IP: 138.68.3.71
+Risk Level: LOW
+Match Count: 1
+
+⚠️ Log Analysis for LOW RISK
+Timestamp: 2019-01-02T05:12:54.889194
+Source IP: 88.214.26.54
+Destination IP: 138.68.3.71
+Risk Level: LOW
+Match Count: 1
+
+⚠️ Log Analysis for LOW RISK
+Timestamp: 2019-01-02T05:11:06.691637
+Source IP: 89.248.168.51
+Destination IP: 138.68.3.71
+Risk Level: LOW
+Match Count: 1
+
+⚠️ Log Analysis for LOW RISK
+Timestamp: 2019-01-02T04:59:55.164511
+Source IP: 91.245.36.26
+Destination IP: 138.68.3.71
+Risk Level: LOW
+Match Count: 1
+
+⚠️ Log Analysis for LOW RISK
+Timestamp: 2019-01-02T04:46:28.410105
+Source IP: 92.53.76.213
+Destination IP: 138.68.3.71
+Risk Level: LOW
+Match Count: 1
+
+⚠️ Log Analysis for LOW RISK
+Timestamp: 2019-01-02T03:53:35.752154
+Source IP: 92.63.194.33
+Destination IP: 138.68.3.71
+Risk Level: LOW
+Match Count: 1

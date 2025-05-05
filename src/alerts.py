@@ -2,7 +2,7 @@ import os
 import asyncio
 from dotenv import load_dotenv
 from telegram import Bot
-from parser import flagged_logs
+from analyzer import high_risk
 
 
 load_dotenv()
@@ -20,15 +20,10 @@ async def send_message(text,chat_id):
         await bot.send_message(text=text, chat_id=chat_id)
 
 async def run_bot(message,chat_id):
-    text = '\n'.join(message)
+    text = message
     await send_message(text, chat_id)
     
     # TEXT MESSAGES
-messages = [
-    "Testing!",
-    "Testing!",
-    "Testing!"
-    ]
-
+messages = [messages] * 20
 if messages:
     asyncio.run(run_bot(messages, CHAT_ID))

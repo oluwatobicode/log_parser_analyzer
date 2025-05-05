@@ -12,14 +12,14 @@
     "field": "alert.category",
     "match_type": "equals",
     "value": "Attempted Information Leak",
-    "level": "critical",
+    "level": "medium",
     "description": "an information leak attempted"
   },
   {
     "log_type": "ids",
     "field": "alert.severity",
     "match_type": "gte",
-    "value": 2,
+    "value": 4,
     "level": "medium",
     "description": "This is a moderate severity alert"
   },
@@ -44,7 +44,7 @@
     "field": "dest_port",
     "value": 1521,
     "match_type": "equals",
-    "level": "medium",
+    "level": "critical",
     "description": "suspicious access to Oracle SQL port 1521"
   },
   {
@@ -65,7 +65,7 @@
   },
   {
     "log_type": "ids",
-    "level": "critical",
+    "level": "medium",
     "field": "alert.signature",
     "value": "Poor Reputation IP",
     "match_type": "contains",

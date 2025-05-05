@@ -6,8 +6,6 @@ flagged_logs = []
 with open("./rules/ids_rules.json", "r", encoding="utf-8") as file:
     ids_sample_rules = json.load(file)
 
-
-
 # reading the json file
 with open('./logs/alerts-only.json', "r", encoding="utf-8") as file:
     ids_sample_logs = json.load(file)
@@ -16,7 +14,6 @@ with open('./logs/alerts-only.json', "r", encoding="utf-8") as file:
 # function to match the rules
 def match_rules(logs_entry, rules):
     field_part = rules["field"].split(".")
-    ["alert", "signature"]
     value = logs_entry
 
     for part in field_part:
