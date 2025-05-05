@@ -1,5 +1,6 @@
 import json
 
+# i made an empty array for the flagged_logs
 flagged_logs = []
 
 # reading the rules files
@@ -18,13 +19,16 @@ def match_rules(logs_entry, rules):
 
     for part in field_part:
         value = value.get(part) if isinstance(value, dict) else None
-        
+    
+    # this is for if there is no value
     if value is None:
         return False
     
+    # this is used to get the match type from our rules
     match_type = rules.get("match_type")
     rule_value = rules["value"]
 
+    # this is used to check the match type against the logs
     if match_type == "contains":
         # print(rule_value.lower())
         # print(str(value.lower()))
@@ -75,7 +79,7 @@ for ids_logs in ids_sample_logs:
                 ]
             })
 
-print(flagged_logs)
+# print(flagged_logs)
 print(f"Processed {len(ids_sample_logs)}, flagged:{len(flagged_logs)} logs")
 
 
